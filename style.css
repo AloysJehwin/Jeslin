@@ -2,16 +2,20 @@
 
 body {
   height: 100vh;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0;
 
-  background-size: cover;
-  background-image: url("https://www.psdgraphics.com/wp-content/uploads/2022/01/white-math-paper-texture.jpg");
-  background-position: center center;
+  background-color: lavender; /* Sets a lavender background */
+  background-size: cover; 
+  background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
+
+
 
 .paper {
   background-image: url("https://i0.wp.com/textures.world/wp-content/uploads/2018/10/2-Millimeter-Paper-Background-copy.jpg?ssl=1");
